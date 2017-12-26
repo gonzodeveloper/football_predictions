@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/datasci_beastcode.iml" filepath="$PROJECT_DIR$/.idea/datasci_beastcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datasci_football_cluster/.idea/datasci_football_cluster.iml" filepath="$PROJECT_DIR$/../datasci_football_cluster/.idea/datasci_football_cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datasci_movies/.idea/datasci_movies.iml" filepath="$PROJECT_DIR$/../datasci_movies/.idea/datasci_movies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datasci_stockstats/.idea/datasci_stockstats.iml" filepath="$PROJECT_DIR$/../datasci_stockstats/.idea/datasci_stockstats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testing/.idea/testing.iml" filepath="$PROJECT_DIR$/../testing/.idea/testing.iml" />
+    </modules>
+  </component>
+</project>
