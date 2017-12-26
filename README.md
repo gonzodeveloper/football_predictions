@@ -29,7 +29,9 @@ Min = -64
 Std Dev = 135.56466770854033 
 
 Error of prediction is 54.18799110452187 yards
+
 **#######################################################** 
+
 So, it seems the program did not run well. The average error of prediction was nearly half of a standard deviation. There are several factors that could have lead to this failure.
 
 	- No normalization of data, or removal of outliers
