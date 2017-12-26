@@ -16,8 +16,6 @@ For the k-NN analysis we had to create the game_data table which aggregates team
 For now the goal of this project is not necessarily to predict the outcome of NCAA football games, rather to predect the rushing preformance of a team given that we know their recent preformance stats as well as their opponent's, and the precipitation/snow figures for game day. The logic informing this analysis is as follows. We can score a teams strength in offensive passing and rushing as well as their weakness in defending against it by aggregating stats from their recent games. Moreover, we know that a team will usually change its play-style in favor of rushing in inclement weather--it's much harder to throw a pass in the rain or snow. Therefore, we can take these "strength" and "weakness" figures, along with precipitation data, as feature vectors for a game. Then, we can the plot each vector (i.e., game) in hyper-dimensional space and the nearest neighbors will represent similar games. If we know that rushing yards for those games, we can predict for our testing data.
 
 **Results**
-Results
-
  
 ##### DATA ON RUSH YDS PER GAME ####
 Mean = 193.6229799851742
@@ -31,7 +29,7 @@ Min = -64
 Std Dev = 135.56466770854033 
 
 Error of prediction is 54.18799110452187 yards
- 
+**#######################################################** 
 So, it seems the program did not run well. The average error of prediction was nearly half of a standard deviation. There are several factors that could have lead to this failure.
 
 	- No normalization of data, or removal of outliers
