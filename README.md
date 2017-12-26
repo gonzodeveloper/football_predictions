@@ -10,8 +10,9 @@ Because I use this dataset for multiple projects. I'll include a separate explin
 
 The creating of the 5 base tables (team, game, player, preformance, and weather) as well as the 2 views is straight forward enough, and these will be used in later programs. 
 
-![]({{site.baseurl}}/schema.png)
+![]({{site.baseurl}}/ football_predictions/schema.png )
 
+![](https://github.com/gonzodeveloper/football_predictions/blob/master/schema.png)
 For the k-NN analysis we had to create the game_data table which aggregates teams' strenghts and weaknesses (see below). The table was loaded with the help of several user defined functions. The script works well enough, however it would have been much faster and simpler to use mysql's built in WINDOW fucntions to calculate the "strength" and "weakness" figures.
 
 **Analysis**
