@@ -20,11 +20,11 @@ Results
 
  
 ##### DATA ON RUSH YDS PER GAME ####
-Mean = 193.6229799851742
-Median = 164.0
-Max = 1142
-Min = -64
-Std Dev = 135.56466770854033
+Mean = 193.6229799851742 \n
+Median = 164.0 \n
+Max = 1142 \n
+Min = -64 \n
+Std Dev = 135.56466770854033 \n
 Error of prediction is 54.18799110452187 yards
  
 So, it seems the program did not run well. The average error of prediction was nearly half of a standard deviation. There are several factors that could have lead to this failure.
