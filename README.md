@@ -5,9 +5,12 @@
 This project is split into two parts: construction of the league database and analysis using the k-NN algorithm.
 
 **The Dataset**
+
 Because I use this dataset for multiple projects. I'll include a separate explination for the database architecture. To download the raw csv's and load them into our database simply create a mysql database called "league" and run the scripts in the order specified by the file "building_dataset.txt". 
 
 The creating of the 5 base tables (team, game, player, preformance, and weather) as well as the 2 views is straight forward enough, and these will be used in later programs. 
+
+![]({{site.baseurl}}/schema.png)
 
 For the k-NN analysis we had to create the game_data table which aggregates teams' strenghts and weaknesses (see below). The table was loaded with the help of several user defined functions. The script works well enough, however it would have been much faster and simpler to use mysql's built in WINDOW fucntions to calculate the "strength" and "weakness" figures.
 
