@@ -17,7 +17,7 @@ For now the goal of this project is not necessarily to predict the outcome of NC
 
 **Results**
  
-##### DATA ON RUSH YDS PER GAME ####
+**############## DATA ON RUSH YDS PER GAME ##############**
 Mean = 193.6229799851742
 
 Median = 164.0 
